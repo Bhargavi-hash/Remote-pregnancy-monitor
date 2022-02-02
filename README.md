@@ -14,3 +14,19 @@ DASS group project done to build a web app for parijatham clinics
     - homepage_doctor.dart
     - homepage_admin.dart
     - forgot_password.dart
+
+## Tasks to be done by R1 (March 1-3)
+- Login and registration (Frontend + Backend)
+- Forgot password (Frontend + Backend)
+- Profile page
+- Delete account
+- Vital parameters input forms
+  - Weekly
+  - Monthly
+  - Daily
+- Timely blog display
+- Notifications for patients
+- Notifications for doctors
+- Notifications for patients by doctors
+- Bulk notifications
+- Appointment calender
