@@ -1,3 +1,4 @@
+import 'package:dass_rpm/pages/forgot_password.dart';
 import 'package:flutter/material.dart';
 import '../pages/register.dart';
 import '../pages/homePage_patient.dart';
@@ -195,7 +196,10 @@ class _LoginScreenState extends State<LoginScreen> {
       child: MaterialButton(
         padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
         minWidth: MediaQuery.of(context).size.width,
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => forgotPasswordScreen()));
+        },
         child: Text(
           "Forgot Password",
           textAlign: TextAlign.center,
