@@ -6,7 +6,8 @@ DASS group project done to build a web app for parijatham clinics
   
   Will add new images and animations later
 - lib
-  - pages    // dart code for UI screens
+  - main.dart --> main code which links to all other UI screen codes
+  - pages     --> dart code for UI screens
     - login.dart
     - register.dart
     - log_reg_opt_page.dart
