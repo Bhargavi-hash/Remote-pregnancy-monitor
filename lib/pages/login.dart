@@ -1,9 +1,11 @@
 import 'package:dass_rpm/pages/forgot_password.dart';
+import 'package:dass_rpm/pages/homepage_admin.dart';
+import 'package:dass_rpm/pages/homepage_doctor.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import '../pages/register.dart';
-import '../pages/homePage_patient.dart';
-import '../pages/homePage_doctor.dart';
-import '../pages/homePage_admin.dart';
+import '../pages/homepage_patient.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -27,6 +29,11 @@ class _LoginScreenState extends State<LoginScreen> {
   // Editing controllers
   final TextEditingController emailController = new TextEditingController();
   final TextEditingController passwordController = new TextEditingController();
+
+  final _auth = FirebaseAuth.instance;
+
+  // string for displaying the error Message
+  String? errorMessage;
 
   @override
   Widget build(BuildContext context) {
@@ -118,6 +125,18 @@ class _LoginScreenState extends State<LoginScreen> {
       autofocus: false,
       controller: emailController,
       keyboardType: TextInputType.emailAddress,
+
+      // Email validation
+      validator: (value) {
+        if (value!.isEmpty) {
+          return ("Please Enter Your Email");
+        }
+        // reg expression for email validation
+        if (!RegExp("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.[a-z]").hasMatch(value)) {
+          return ("Please Enter a valid email");
+        }
+        return null;
+      },
       onSaved: (value) {
         emailController.text = value!;
       },
@@ -135,6 +154,15 @@ class _LoginScreenState extends State<LoginScreen> {
       autofocus: false,
       controller: passwordController,
       obscureText: showPassword,
+      validator: (value) {
+        RegExp regex = new RegExp(r'^.{6,}$');
+        if (value!.isEmpty) {
+          return ("Password is required for login");
+        }
+        if (!regex.hasMatch(value)) {
+          return ("Password should contain minimum 6 characters");
+        }
+      },
       onSaved: (value) {
         passwordController.text = value!;
       },
@@ -168,18 +196,7 @@ class _LoginScreenState extends State<LoginScreen> {
         padding: EdgeInsets.fromLTRB(20, 20, 20, 20),
         minWidth: MediaQuery.of(context).size.width,
         onPressed: () {
-          if (patient) {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => patientHomeScreen()));
-          }
-          if (doctor) {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => doctorHomeScreen()));
-          }
-          if (admin) {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => adminHomeScreen()));
-          }
+          SignIn(emailController.text, passwordController.text);
         },
         child: Text(
           "Login",
@@ -295,5 +312,34 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
         ));
+  }
+
+  // Login function
+  void SignIn(String email, String password) async {
+    if (_formKey.currentState!.validate()) {
+      await _auth
+          .signInWithEmailAndPassword(email: email, password: password)
+          .then((uid) => {
+                Fluttertoast.showToast(msg: "Login Successfull !"),
+                if (patient)
+                  {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (context) => patientHomeScreen())),
+                  },
+                if (doctor)
+                  {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (context) => doctorHomeScreen())),
+                  },
+                if (admin)
+                  {
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(
+                        builder: (context) => adminHomeScreen())),
+                  },
+              })
+          .catchError((e) {
+        Fluttertoast.showToast(msg: e!.message);
+      });
+    }
   }
 }
