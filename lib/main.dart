@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:dass_rpm/pages/login.dart';
 import 'package:dass_rpm/pages/log_reg_opt_page.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-// import 'package:firebase_core/firebase_core.dart';
-
-void main() async {
-  // WidgetsFlutterBinding.ensureInitialized;
-  // await Firebase.initializeApp();
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized;
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: "AIzaSyDgD9HOo_5Xaf0o0gbGvH_sp0X5Jn3YnQc",
+      appId: "1:752104653012:android:9574ae8afa2d2d17be7b41",
+      messagingSenderId: "752104653012",
+      projectId: "remote-pregnancy-monitor",
+    ),
+  );
   runApp(const MyApp());
 }
 
