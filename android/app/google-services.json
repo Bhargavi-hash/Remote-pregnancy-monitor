@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "752104653012",
+    "project_id": "remote-pregnancy-monitor",
+    "storage_bucket": "remote-pregnancy-monitor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752104653012:android:9574ae8afa2d2d17be7b41",
+        "android_client_info": {
+          "package_name": "com.example.dass_rpm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752104653012-icvoncs36j2l83hg038p2kl8van220ir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dass_rpm",
+            "certificate_hash": "c2876751aa2c2879e786328efffd1c162b999a03"
+          }
+        },
+        {
+          "client_id": "752104653012-cjcmh67ljmtt2u7d2rhvqkns6h94kee7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgD9HOo_5Xaf0o0gbGvH_sp0X5Jn3YnQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752104653012-cjcmh67ljmtt2u7d2rhvqkns6h94kee7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "752104653012-2umv0aupocfb9ilr3teo0p7dmg4sp6gj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dassRpm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
