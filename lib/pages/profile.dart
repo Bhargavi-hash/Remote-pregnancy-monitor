@@ -37,7 +37,7 @@ class FormScreenState extends State<FormScreen>{
   }
   Widget _buildProfileImage()=>CircleAvatar(
     backgroundImage: 
-    AssetImage('assets/images/image.jpg'),
+    AssetImage('assets/logo.png'),
     radius:100
     )
   ;
