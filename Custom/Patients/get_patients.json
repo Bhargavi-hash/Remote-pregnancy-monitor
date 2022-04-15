@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "Owner": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Email": "a@gmail.com",
+            "$currency_symbol": "$",
+            "$field_states": null,
+            "$review_process": {
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Name": "Amber",
+            "Last_Activity_Time": null,
+            "Record_Image": null,
+            "Modified_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "$review": null,
+            "$state": "save",
+            "Unsubscribed_Mode": null,
+            "$process_flow": false,
+            "id": "340263000000238882",
+            "Email_Opt_Out": false,
+            "$approved": true,
+            "$approval": {
+                "delegate": false,
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Modified_Time": "2022-04-15T11:07:20+05:30",
+            "Created_Time": "2022-04-15T11:07:20+05:30",
+            "Unsubscribed_Time": null,
+            "$editable": true,
+            "$orchestration": false,
+            "$in_merge": false,
+            "Created_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Tag": [],
+            "Secondary_Email": null,
+            "$approval_state": "approved"
+        },
+        {
+            "Owner": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Email": "h@gmail.com",
+            "$currency_symbol": "$",
+            "$field_states": null,
+            "$review_process": {
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Name": "Harold",
+            "Last_Activity_Time": null,
+            "Record_Image": null,
+            "Modified_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "$review": null,
+            "$state": "save",
+            "Unsubscribed_Mode": null,
+            "$process_flow": false,
+            "id": "340263000000238877",
+            "Email_Opt_Out": false,
+            "$approved": true,
+            "$approval": {
+                "delegate": false,
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Modified_Time": "2022-04-15T11:07:10+05:30",
+            "Created_Time": "2022-04-15T11:07:10+05:30",
+            "Unsubscribed_Time": null,
+            "$editable": true,
+            "$orchestration": false,
+            "$in_merge": false,
+            "Created_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Tag": [],
+            "Secondary_Email": null,
+            "$approval_state": "approved"
+        },
+        {
+            "Owner": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Email": "p@gmail.com",
+            "$currency_symbol": "$",
+            "$field_states": null,
+            "$review_process": {
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Name": "Paulina",
+            "Last_Activity_Time": null,
+            "Record_Image": null,
+            "Modified_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "$review": null,
+            "$state": "save",
+            "Unsubscribed_Mode": null,
+            "$process_flow": false,
+            "id": "340263000000238872",
+            "Email_Opt_Out": false,
+            "$approved": true,
+            "$approval": {
+                "delegate": false,
+                "approve": false,
+                "reject": false,
+                "resubmit": false
+            },
+            "Modified_Time": "2022-04-15T11:06:57+05:30",
+            "Created_Time": "2022-04-15T11:06:57+05:30",
+            "Unsubscribed_Time": null,
+            "$editable": true,
+            "$orchestration": false,
+            "$in_merge": false,
+            "Created_By": {
+                "name": "Bhargavi",
+                "id": "340263000000225001",
+                "email": "bhargavi.kurukunda@students.iiit.ac.in"
+            },
+            "Tag": [],
+            "Secondary_Email": null,
+            "$approval_state": "approved"
+        }
+    ],
+    "info": {
+        "per_page": 200,
+        "count": 3,
+        "page": 1,
+        "more_records": false
+    }
+}

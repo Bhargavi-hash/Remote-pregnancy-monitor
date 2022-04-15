@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "Company": "Zylker",
+            "Last_Name": "Daly",
+            "First_Name": "Paul",
+            "Email": "p.daly@zylker.com",
+            "State": "Texas"
+        },
+        {
+            "Company": "Villa Margarita",
+            "Last_Name": "Dolan",
+            "First_Name": "Brian",
+            "Email": "brian@villa.com",
+            "State": "Texas"
+        }
+    ],
+    "trigger": [
+        "approval",
+        "workflow",
+        "blueprint"
+    ]
+}

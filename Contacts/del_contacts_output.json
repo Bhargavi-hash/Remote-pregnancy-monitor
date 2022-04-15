@@ -1,0 +1,12 @@
+{
+    "data": [
+        {
+            "code": "SUCCESS",
+            "details": {
+                "id": "340263000000237010"
+            },
+            "message": "record deleted",
+            "status": "success"
+        }
+    ]
+}
