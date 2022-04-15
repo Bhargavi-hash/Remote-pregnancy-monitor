@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "code": "SUCCESS",
+            "details": {
+                "Modified_Time": "2022-04-15T17:39:40+05:30",
+                "Modified_By": {
+                    "name": "Bhargavi ",
+                    "id": "340263000000225001"
+                },
+                "Created_Time": "2022-04-15T11:07:20+05:30",
+                "id": "340263000000238882",
+                "Created_By": {
+                    "name": "Bhargavi ",
+                    "id": "340263000000225001"
+                }
+            },
+            "message": "record updated",
+            "status": "success"
+        }
+    ]
+}
