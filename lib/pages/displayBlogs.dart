@@ -1,5 +1,5 @@
 // import 'package:easy_sidemenu/easy_sidemenu.dart';
-import 'dart:html';
+// import 'dart:html';
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +40,6 @@ class _blogPageState extends State<blogPage> {
           //Handle button tap
         },
       ),
-
       appBar: AppBar(
         title: Text('Blogs :)'),
       ),
@@ -60,10 +59,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 1',
                         style: TextStyle(
@@ -87,10 +84,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 2',
                         style: TextStyle(
@@ -114,10 +109,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 3',
                         style: TextStyle(
@@ -141,10 +134,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 4',
                         style: TextStyle(
@@ -168,10 +159,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 5',
                         style: TextStyle(
@@ -182,7 +171,8 @@ class _blogPageState extends State<blogPage> {
                     IconButton(
                       color: Colors.green,
                       icon: Icon(Icons.arrow_forward),
-                      onPressed: () => _handleURLButtonPress(context, '#'),
+                      onPressed: () => _handleURLButtonPress(
+                          context, 'https://www.askmydoctor.in/week-5/'),
                     ),
                     SizedBox(
                       height: 5,
@@ -195,10 +185,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 6',
                         style: TextStyle(
@@ -222,10 +210,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 7',
                         style: TextStyle(
@@ -249,10 +235,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 8',
                         style: TextStyle(
@@ -276,10 +260,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 9',
                         style: TextStyle(
@@ -303,10 +285,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 10',
                         style: TextStyle(
@@ -330,10 +310,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 11',
                         style: TextStyle(
@@ -357,10 +335,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 12',
                         style: TextStyle(
@@ -384,10 +360,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 13',
                         style: TextStyle(
@@ -411,10 +385,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 14',
                         style: TextStyle(
@@ -432,16 +404,14 @@ class _blogPageState extends State<blogPage> {
                     ),
                   ])
                 ])),
-                 Container(
+            Container(
                 color: Colors.white,
                 height: 140,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 15',
                         style: TextStyle(
@@ -465,10 +435,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 16',
                         style: TextStyle(
@@ -492,10 +460,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 17',
                         style: TextStyle(
@@ -519,10 +485,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 18',
                         style: TextStyle(
@@ -546,10 +510,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 19',
                         style: TextStyle(
@@ -573,10 +535,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 20',
                         style: TextStyle(
@@ -600,10 +560,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 21',
                         style: TextStyle(
@@ -627,10 +585,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 22',
                         style: TextStyle(
@@ -654,10 +610,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 23',
                         style: TextStyle(
@@ -681,10 +635,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 24',
                         style: TextStyle(
@@ -708,10 +660,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 25',
                         style: TextStyle(
@@ -735,10 +685,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 26',
                         style: TextStyle(
@@ -762,10 +710,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 27',
                         style: TextStyle(
@@ -789,10 +735,8 @@ class _blogPageState extends State<blogPage> {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30),
                 child: Row(children: <Widget>[
                   Column(children: <Widget>[
-                    FlatButton(
-                      color: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 50.0, vertical: 30.0),
+                    TextButton(
+                      style: TextButton.styleFrom(primary: Colors.white),
                       child: Text(
                         'Week 28',
                         style: TextStyle(
@@ -811,8 +755,6 @@ class _blogPageState extends State<blogPage> {
                   ])
                 ])),
           ]))),
-
-      
     );
   }
 
