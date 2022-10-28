@@ -1,6 +1,10 @@
 # Remote pregnancy monitor
 Design and analysis of software systems(DASS) course group project done to build a web app for parijatham clinics
-
+### Team members:
+- Ananya
+- Bhargavi
+- Kiran
+- Rohan
 ## What is the project about?
 Pregnancy care is 9 months long and involves multiple visits to the Doctor. It involves multiple tests at scheduled time slots and some of the tests if missed cannot be done and result in unpleasant consequences. The care involves multiple parameters to be monitored and compared with earlier readings for proper interpretation. Apart from the medical needs, pregnancy is emotionally challenging, especially for the first pregnancy and need for support and guidance especially in the nuclear families is high. In the public health perspective, the obstetric services in government funded hospitals are overcrowded and it is very difficult to give focused care and hence it is more important to leverage technology to remotely monitor pregnant women.
 
